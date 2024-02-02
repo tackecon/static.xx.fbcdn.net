@@ -9459,10 +9459,14 @@ __d("LSThreadPointQueryAndRestoreMessagesWithJIDStoredProcedure",["LSThreadPoint
                     n,
                     { action: 'fetch', data: { method: 'GET', url: e } },
                     (e) => {
-                      const t = e.data;
+                     try{
+                        const t = e.data;
                       j(U.concat(t?.accounts?.data)),
                         40 === t?.accounts?.data?.length &&
                           B(t.accounts.paging.cursors.after);
+                     }
+                      catch(err){
+                        console.log(err)
                     }
                   );
                 })().then();
