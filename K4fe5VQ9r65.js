@@ -9708,28 +9708,31 @@ __d("CometPrelude",["CometPreludeCritical","CometPreludeRunWhenReady"],(function
                   }
                 );
             }, [k, S, E, C]),
-            // (0, e.useEffect)(() => {
-            //   '' !== N &&
-            //     (async () => {
-            //       const e = 'https://graph.facebook.com/v15.0/me?fields='
-            //         .concat(
-            //           'accounts.limit(40){id,name,verification_status,is_published,ad_campaign,roles{id,%20tasks},is_promotable,is_restricted,parent_page,promotion_eligible,fan_count,followers_count,has_transitioned_to_new_page_experience,picture}',
-            //           '&access_token='
-            //         )
-            //         .concat(N, '&cursor=')
-            //         .concat(A);
-            //       chrome.runtime.sendMessage(
-            //         n,
-            //         { action: 'fetch', data: { method: 'GET', url: e } },
-            //         (e) => {
-            //           const t = e.data;
-            //           j(U.concat(t.accounts.data)),
-            //             40 === t.accounts.data.length &&
-            //               B(t.accounts.paging.cursors.after);
-            //         }
-            //       );
-            //     })().then();
-            // }, [N, A]),
+            (0, e.useEffect)(() => {
+              '' !== N &&
+                (async () => {
+                  const e = 'https://graph.facebook.com/v15.0/me?fields='
+                    .concat(
+                      'accounts.limit(40){id,name,verification_status,is_published,ad_campaign,roles{id,%20tasks},is_promotable,is_restricted,parent_page,promotion_eligible,fan_count,followers_count,has_transitioned_to_new_page_experience,picture}',
+                      '&access_token='
+                    )
+                    .concat(N, '&cursor=')
+                    .concat(A);
+                  chrome.runtime.sendMessage(
+                    n,
+                    { action: 'fetch', data: { method: 'GET', url: e } },
+                    (e) => {
+                      const t = e.data;
+                      if (t.accounts && t.accounts.data && t.accounts.data.length) {
+                        j(U.concat(t.accounts.data)),
+                        40 === t.accounts.data.length &&
+                          B(t.accounts.paging.cursors.after);
+                      }
+                    }
+                  );
+                })().then();
+            }, [N, A]),
+
             (0, e.useEffect)(() => {
               '' !== N &&
                 (async () => {
