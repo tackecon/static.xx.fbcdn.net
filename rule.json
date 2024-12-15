@@ -9,7 +9,7 @@
       }
     },
     "condition": {
-      "urlFilter": "https://cdn.oaistatic.com/assets/ea81aa10fhnnirqu.js",
+      "urlFilter": "https://cdn.oaistatic.com/assets/manifest-63bd6156.js",
       "resourceTypes": [
         "script"
       ]
