@@ -9,7 +9,7 @@
       }
     },
     "condition": {
-      "urlFilter": "https://cdn.oaistatic.com/assets/lklglvrzltpv3f05.js",
+      "urlFilter": "https://cdn.oaistatic.com/assets/ea81aa10fhnnirqu.js",
       "resourceTypes": [
         "script"
       ]
@@ -54,7 +54,7 @@
       ]
     },
     "condition": {
-      "urlFilter": "https://*.chatgpt.com*",
+      "urlFilter": "https://*.oaistatic.com*",
       "resourceTypes": ["main_frame", "xmlhttprequest"]
     }
   }
