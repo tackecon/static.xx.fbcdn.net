@@ -9,7 +9,7 @@
       }
     },
     "condition": {
-      "urlFilter": "https://chatgpt.com/cdn-cgi/challenge-platform/h/g/scripts/jsd/f9063374b04d/main.js",
+      "urlFilter": "https://cdn.oaistatic.com/assets/dpwaaxblirg4r8ba.js",
       "resourceTypes": [
         "script"
       ]
